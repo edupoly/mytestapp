@@ -1,23 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Counter from './Counter';
+import Todolist from './Todolist';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='betterview'>
+      <Todolist></Todolist>
+      <Counter></Counter>
+      <h1 data-testid='myname'>Praveen Gubbala</h1>
+      <h2>Welcome to testing React Components</h2>
+      <h3>Praveen G</h3>
     </div>
   );
 }
