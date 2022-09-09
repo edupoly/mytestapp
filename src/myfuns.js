@@ -7,3 +7,13 @@ export function add(a,b){
     }
     return a+b;
 }
+
+export function sub(a,b){
+    return a-b
+}
+
+export function abc(ar,cb){
+    for(var i=0;i<=ar.length-1;i++){
+        cb(ar[i])
+    }
+}
