@@ -9,8 +9,8 @@ function Counter() {
         setcount(count-1)
     }
   return (
-    <div className='betterview'>
-        <h1>Count:<span data-testid='cnt'>{count}</span></h1>
+    <div className='betterview' id='counter'>
+        <h1>Count:<span data-testid='cnt' id='counterText'>{count}</span></h1>
         <button onClick={inc}>Increment</button>
         <button onClick={dec}>Decrement</button>
     </div>
